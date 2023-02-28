@@ -80,7 +80,7 @@ function HabitacionesForm({ setModalStatus, itemValues }) {
               )}
             </div>
             <div className="mb-3">
-              <div className="mb-1">Cantida de camas:</div>
+              <div className="mb-1">Cantidad de camas:</div>
               <Field name="cantcamas" type="text" className="fullWidth" />
               {errors.cantcamas && touched.cantcamas && (
                 <div className="text-danger">{errors.cantcamas}</div>
